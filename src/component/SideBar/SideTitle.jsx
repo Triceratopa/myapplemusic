@@ -3,13 +3,18 @@ import { InputGroup, Form } from "react-bootstrap";
 
 const SideTitle = () => {
   return (
-    <InputGroup className="mb-3">
-      <i className="bi bi-search text-danger"></i>
+    <InputGroup className="mb-3 ms-2">
+      <InputGroup.Text id="basic-addon2" className="bg-secondary border-0 ">
+        {" "}
+        <i className="bi bi-search text-danger"></i>
+      </InputGroup.Text>
+
       <Form.Control
-        placeholder="Search"
-        aria-label="Search"
+        size="sm"
+        placeholder="Search "
+        aria-label="Search "
         aria-describedby="basic-addon2"
-        className="bg-secondary"
+        className="bg-secondary border-0  "
       />
     </InputGroup>
   );

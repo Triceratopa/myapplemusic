@@ -3,15 +3,15 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const HeadCentral = () => {
   return (
-    <Container>
-      <h2>Novità</h2>
+    <Container className="mb-4 ms-4 mt-3">
+      <h2 className="text-white ">Novità</h2>
       <hr />
 
       <Row className="flex-nowrap">
         <Col>
           <div>
-            <p>NUOVA STAZIONE RADIO</p>
-            <p className="fs-6">
+            <p className="text-white">NUOVA STAZIONE RADIO</p>
+            <p className="fs-6 text-white">
               Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill
             </p>
           </div>
@@ -24,8 +24,8 @@ const HeadCentral = () => {
         </Col>
         <Col>
           <div>
-            <p>NUOVA STAZIONE RADIO</p>
-            <p>Ecco la nuova casa della musica latina</p>
+            <p className="text-white">NUOVA STAZIONE RADIO</p>
+            <p className="text-white">Ecco la nuova casa della musica latina</p>
           </div>
           <img
             src="src/assets/images/1b.png"
